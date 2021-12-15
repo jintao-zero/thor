@@ -4,6 +4,8 @@ import (
 	"github.com/vechain/thor/api/accounts"
 )
 
-func A() *accounts.Account {
+type TT accounts.Account
+
+func A() *TT {
 	return nil
 }
